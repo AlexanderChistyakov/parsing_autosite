@@ -1,0 +1,16 @@
+[flake8]
+ignore = 
+    W503,
+    F811,
+    I005,
+    I004,
+    I001
+exclude = 
+    tests/,
+    */migrations/,
+    venv/,
+    */venv/,
+    env/
+    */env/,
+per-file-ignores =
+    */settings.py:E501
